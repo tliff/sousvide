@@ -13,11 +13,11 @@ namespace SousVide {
     }
     
     void enable(){
-      digitalWrite(pin, LOW);
+      digitalWrite(pin, HIGH);
     }
     
     void disable(){
-      digitalWrite(pin, HIGH);
+      digitalWrite(pin, LOW);
     }
     
   };
